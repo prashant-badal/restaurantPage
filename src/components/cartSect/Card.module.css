@@ -1,0 +1,86 @@
+.cardWrapper{
+    max-width: 1000px;
+     width: 100%;
+     margin: auto;
+     background-color:rgb(206, 195, 195);
+   }
+   .container{
+      
+     flex: 2;
+     padding: 16px;
+     border-radius: 8px;
+   
+     
+   }
+   
+   
+   
+   .resTop{
+       display: flex;
+   }
+   
+   .imgDiv{
+       width: 100px;
+       height: 100px;
+   }
+   
+   .imgDiv img {
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+   }
+   
+   .cartResDetail h2{
+       color:rgb(39, 1, 7);
+       margin-left: 10px;
+       font-size: 20px;
+       font-weight: 600;
+   }
+   
+   .cartResDetail p{
+       color:rgb(39, 1, 7);
+       margin-left: 10px;
+       font-size: 14px;
+   }
+   
+ 
+   .cartFood{
+       display: flex;
+       
+       justify-content: space-between;
+       flex-direction: row;
+       margin-top: 30px;
+   }
+   
+   .foodName{
+       color:rgb(39, 1, 7);
+       
+       font-size: 20px;
+       font-weight: 600; 
+   }
+   .FoodPrice{
+       color:rgb(39, 1, 7);
+       margin-top: 10px;
+       font-size: 14px;
+   }
+   .buttonContainer{
+       padding: 1px;
+       padding-top: 5px;
+       background-color: rgb(252, 250, 247);
+       border-radius: 10px;
+   }
+   .increment{
+        
+       padding: 5px;
+       font-size: 15px;
+       font-weight: bold;
+       border-radius: 8px;
+       cursor: pointer;
+       border: none;
+   
+   }
+   .buttonText{
+       color :rgb(25, 25, 30);
+       font-weight: bold;
+       padding:px
+   }

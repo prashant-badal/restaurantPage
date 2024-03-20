@@ -1,0 +1,12 @@
+.footer{
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+.footContant{
+    padding: 5px;
+    font-size: 15px;
+}

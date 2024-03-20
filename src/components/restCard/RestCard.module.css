@@ -1,0 +1,44 @@
+.linkRest{
+    text-decoration: none;
+}
+
+.resImg {
+    width: 256px;
+    height: 160px;
+    object-fit: cover;
+  }
+  .ant-card-body {
+    padding: 16px !important;
+  }
+  .name {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 4px 0;
+  }
+  .resItemName {
+    font-size: 12px;
+    color: grey;
+    margin: 0 0 20px 0;
+  }
+  .resDetail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .resRating {
+    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(70, 47, 3);
+  }
+  .resRating .anticon-star {
+    margin: 0 4px 0 0;
+  }
+  .deliveryTime {
+    font-size: 14px;
+    margin: 0;
+    color: grey;
+  }
