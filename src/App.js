@@ -15,6 +15,7 @@ import ErrorComponent from './pages/errPage/ErrorComponent';
 // import store from './redux/store';
 import { Provider } from 'react-redux'
 import store  from './redux/store';
+import Payment from './pages/payment/Payment';
 
 
 const App=()=>{
@@ -76,7 +77,10 @@ element:<Cart/>
 
 
 
-
+{
+  path:"/payment",
+  element:<Payment/>
+},
 
   
 

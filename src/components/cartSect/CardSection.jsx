@@ -7,9 +7,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import { BASE_IMG_URL } from '../../utils/constant';
 import EmptyCart from '../emptyCart/EmptyCart';
 import { addToCart, removeFromCart } from '../../redux/slice/cartSlice';
+import { useNavigate } from 'react-router-dom';
 
 
 const CardSection = () => {
+  const navigate=useNavigate();
   const dispatch = useDispatch();
   const cart_item = useSelector(state => state.cart.cart);
   // const currentRestaurant = useSelector(
@@ -18,6 +20,9 @@ const CardSection = () => {
 
   // const { name, city} = currentRestaurant;
 
+  const handleClick =()=>{
+    navigate("/payment")
+  }
   return  cart_item.length <= 0 ? (
     <EmptyCart />
   ) : (
@@ -79,7 +84,7 @@ const CardSection = () => {
                   
             </div>
 
-           
+           <button className={styles.buttonOrder} onClick={handleClick}>Order Now</button>
                </div>
 
                </div>
